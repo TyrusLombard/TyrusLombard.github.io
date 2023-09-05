@@ -1,6 +1,6 @@
 body {
-    background: rgb(0, 0, 255);
-    color: rgb(255, 255, 255);
+    background: white;
+    color: white\;
     padding: 10px;
     font-family: arial;
 }
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(201, 201, 201);
+    background: black;
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -19,7 +19,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(0, 0, 255);
+    color: silver;
     flex: 1;
     margin: 0;
 }
@@ -54,7 +54,7 @@ main {
 
          /* portfolio styles */
          .content h1 {
-            color: rgb(0, 0, 0);
+            color:silver;
         }
 
         #portfolio {
@@ -63,7 +63,7 @@ main {
         }
 
         #portfolio li {
-            background: #fff;
+            background: #eee
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
@@ -75,5 +75,5 @@ main {
 
         #portfolio a {
             text-decoration: none;
-            color: #454545;
+            color: white;
         }
