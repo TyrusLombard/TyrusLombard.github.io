@@ -1,6 +1,6 @@
 body {
     background: white;
-    color: white\;
+    color: white;
     padding: 10px;
     font-family: arial;
 }
@@ -32,7 +32,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
 
 /* main container area beneath menu */
@@ -63,14 +63,14 @@ main {
         }
 
         #portfolio li {
-            background: #eee
+            background: white;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: white;
         }
 
         #portfolio a {
