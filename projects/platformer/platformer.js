@@ -44,10 +44,10 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-    createPlatform(500,300,200,20);
-    createPlatform(1,1,1,1);
-    createPlatform(1,1,1,1);
-    createPlatform(1,1,1,1);
+    createPlatform(0,140,505,30);
+    createPlatform(510,140,700,30);
+    createPlatform(1200,140,40,450);
+    createPlatform(1050,300,150,30);
     createPlatform(1,1,1,1);
     
     // TODO 2
@@ -66,8 +66,8 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
     createCannon("right", 600, 1000);
-    createCannon("left", 600, 1000);
-    createCannon("down", 600, 1000);
+    createCannon("left", 325, 175);
+    createCannon("down",325 , 175);
     createCannon("", 600, 1000);
     createCannon("", 600, 1000);
 
