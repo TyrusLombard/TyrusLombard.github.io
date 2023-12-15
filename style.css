@@ -1,6 +1,6 @@
 body {
     background: white;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     font-family: arial;
 }
@@ -54,7 +54,7 @@ main {
 
          /* portfolio styles */
          .content h1 {
-            color:silver;
+            color:rgb(0, 0, 0);
         }
 
         #portfolio {
@@ -75,5 +75,5 @@ main {
 
         #portfolio a {
             text-decoration: none;
-            color: white;
+            color: rgb(0, 0, 0);
         }
